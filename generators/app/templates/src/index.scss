@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+
+  .bordered {
+    border: 5px solid tan;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 5px;
+  }
+
+  > header {
+    flex-basis: 100%;
+    @extend .bordered;
+  }
+  > nav {
+    flex-basis: 180px;
+    @extend .bordered;
+  }
+  > main {
+    flex: 1;
+    @extend .bordered;
+  }
+}

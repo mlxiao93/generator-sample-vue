@@ -1,0 +1,17 @@
+{
+  "name": "generator-sample-vue",
+  "version": "1.0.0",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "sample-vue"
+  ],
+  "author": "xiaomaolin",
+  "repository": "mlxiao93/generator-sample-vue",
+  "description": "sample dashboard project using vue and vue-router",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  }
+}
